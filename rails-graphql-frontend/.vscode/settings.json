@@ -1,0 +1,20 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "files.associations": {
+    "*.graphql": "graphql",
+    "*.gql": "graphql"
+  },
+  "graphql.schema.path": "./schema.graphql",
+  "graphql.schema.polling.enable": true,
+  "[graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
+
+
